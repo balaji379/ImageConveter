@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: image-converter
+  datasource:
+    username: root
+    password: 2799
+    url: jdbc:mysql://localhost:3306/oathujwt
+  jpa:
+     show-sql: true
+     hibernate:
+       ddl-auto: update
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+             client-id: Ov23li2FmOgZmr3yRDEC
+             client-secret: a7e79358cf223e8dcc019fccad0480fdb48ffd91
+             scope: read:user,user:email
+
+          google:
+             client-id: 361691659347-1neh67i4g1rlelo5i2a8p2qo21vg0nlv.apps.googleusercontent.com
+             client-secret: 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
+
