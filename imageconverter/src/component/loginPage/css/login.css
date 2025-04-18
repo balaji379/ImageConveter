@@ -1,0 +1,66 @@
+#container {
+  height: 100vh;
+}
+input:focus {
+  box-shadow: none;
+}
+#logincontainer {
+  height: 100vh;
+  place-content: center;
+  place-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(75, 156, 227),
+    /* rgb(235, 81, 235) 10%, */ rgb(223, 219, 219) 70%
+  );
+}
+.formbox {
+  width: 24%;
+  height: 65%;
+  box-shadow: 0 0 20px 2px rgb(255, 254, 254);
+  border-radius: 20px;
+}
+.loginlogo {
+  font-size: 2.5em;
+}
+#logobox {
+  width: 20%;
+  height: 60%;
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 15px 1px rgb(255, 254, 254);
+}
+.logocontainer {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcomelinebox {
+  width: 80%;
+  line-height: 17px;
+}
+.welcomeline {
+  font-size: 14px;
+  color: rgb(74, 73, 81);
+}
+.oathuBtns {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+.input-field::placeholder {
+  color: red;
+}
+.input-field {
+  border: 2px solid red;
+  color: red;
+}
+.input-field-icon {
+  color: red;
+  border-right: none;
+}
